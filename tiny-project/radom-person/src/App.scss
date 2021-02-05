@@ -1,0 +1,39 @@
+body {
+  background-color: #333;
+}
+.App {
+  text-align: center;
+  .person {
+    width: 600px;
+    height: 600px;
+    margin: auto;
+    margin-top: 2%;
+    background-color: white;
+    .img {
+      width: 150px;
+      height: 150px;
+      margin-top: 30px;
+      border-radius: 50%;
+    }
+    h4 {
+      color: #333;
+    }
+    .icon {
+      margin-top: 10px;
+      width: 100px;
+      // transition: transform 0.8s ease-in-out;
+      // color: #444;
+    }
+    .size:hover {
+      color: yellowgreen;
+      -webkit-transform: rotateX(180deg);
+      transform: rotateX(180deg);
+    }
+    // .line {
+    //   width: 100px;
+    //   height: 100px;
+    //   background-color: red;
+    //   color: yellowgreen;
+    // }
+  }
+}
