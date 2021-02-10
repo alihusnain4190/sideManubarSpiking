@@ -1,0 +1,13 @@
+import React, { useContext } from "react";
+
+import Component2 from "./Component2";
+const Component1 = () => {
+  return (
+    <div>
+      compoent1
+      <Component2 />
+    </div>
+  );
+};
+
+export default Component1;

@@ -1,9 +1,16 @@
+import React from "react";
 import "./App.scss";
-import Person from "./Component/Person";
+import Component1 from "./Component/Component1";
+import Reducer2 from "./Component/Reducer";
+
+export const UserContext = React.createContext();
 function App() {
   return (
     <div className="App">
-      <Person></Person>
+      {/* <UserContext.Provider value={"ali husnain"}>
+        <Component1 />
+      </UserContext.Provider> */}
+      <Reducer2 />
     </div>
   );
 }
